@@ -101,7 +101,7 @@ local pushDropdown = trollTab:Dropdown({
     Callback = function(plr) cfg.player2Push = plr end
 })
 
-mainTab:Button({
+trollTab:Button({
     Title = "Push player!",
     Callback = function() pushPlayer() end
 })
